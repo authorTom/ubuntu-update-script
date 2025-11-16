@@ -317,16 +317,6 @@ Use comma-separated addresses (depends on your mail configuration):
 sudo ./update-system.sh --email "admin1@example.com,admin2@example.com"
 ```
 
-## Contributing
-
-This script can be customized and extended. Some ideas for enhancements:
-
-- Add support for `dist-upgrade` option
-- Implement Slack/Discord webhook notifications
-- Add automatic reboot handling for kernel updates
-- Create update reports in HTML format
-- Add dry-run mode to preview changes without applying
-
 ## License
 
 This script is provided for system administration purposes.
