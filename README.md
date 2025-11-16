@@ -36,9 +36,11 @@ During installation, you may be prompted to configure the mail system. For most 
 1. **Download or create the script:**
 
 ```bash
+# Navigate to the correct directory
 cd /usr/local/bin
-sudo nano update-system.sh
-# Paste the script content and save
+
+# Download the script file using sudo
+sudo wget https://raw.githubusercontent.com/authorTom/ubuntu-update-script/79940d7ef9263f81bd517a6313b01da3508b73db/update-system.sh
 ```
 
 2. **Make the script executable:**
